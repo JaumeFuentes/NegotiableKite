@@ -1,0 +1,18 @@
+AddHandler x-mapp-php5 .php3 .php4 .php .phtml
+Options +Indexes +FollowSymlinks -MultiViews
+RewriteEngine On
+#Atencion al subirlo al servidor que tengo que cambiarlo por RewriteBase /
+RewriteBase /
+
+RewriteRule ^anuncios/(.+) busqueda.php?clase=$1
+RewriteRule ^anuncio/(.+) anuncio.php?codan=$1
+RewriteRule ^links/(.+) links.php?seccion_link=$1
+RewriteRule ^perfil/(.+) perfil.php?user=$1
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+#limite de subida de archivos de 6Mb -> 6*1024*1024
+#php_value upload_max_filesize 5242880
+#php_value post_max_size 5242880

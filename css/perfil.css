@@ -1,0 +1,355 @@
+@charset "utf-8";
+/* CSS Document */
+
+.registro.perfil{
+	margin-bottom:10px;
+	margin-top:11px;
+}
+
+#perfil_top{
+	width:700px;
+	margin-bottom:20px;	
+}
+
+#perfil_top #izda, #perfil_top #dcha{
+	float:left;
+}
+
+#perfil_top #izda{
+	
+	width:120px;
+}
+
+#perfil_top #izda #foto_perfil{
+	margin-bottom:10px;
+}
+
+#perfil_top #izda #foto_perfil img{
+	width:100px;
+	height:100px;
+	border:1px solid #cccccc;
+}
+
+.op_con{
+	border:1px solid #ccc;
+	width:100px;
+	height:25px;
+	margin-bottom:10px;
+	background-color:#EEEEEE;
+	text-align:center;
+	line-height:25px;
+	font-family:"Century Gothic","Arial";
+	color:#666;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.op_con a{
+	text-decoration:none;
+	color:#666;
+}
+
+#estrellas{	
+	width:100px;
+	height:20px;
+	text-align:center;	
+}
+
+#perfil_top #dcha #nombre{
+	font-size:30px;
+	margin-bottom:0px;
+	font-family: "Arial Black";
+	color:#666;
+	position:relative;
+	top:-11px;
+}
+
+#perfil_top #dcha #bloque_fotos_tienda .foto_tienda{
+	float:left;
+	margin-right:27px;
+	border:1px solid #CCCCCC;
+	box-shadow:2px 2px 3px #666666;
+}
+
+#perfil_top #dcha #bloque_fotos_tienda .foto_tienda:last-child{
+	margin-right:0px;
+}
+
+#perfil_top #dcha #bloque_fotos_tienda .foto_tienda img{
+	width:164px;
+	height:146px;
+}
+
+.des_marc{
+	line-height:20px;
+	font-family:"Century Gothic","Arial";
+	color:#666;
+	margin-bottom:10px;
+}
+
+.des_marc .dif{
+	font-weight:bold;
+}
+
+.des_marc .dif.marcas{
+	float:left;
+	margin-right:5px;
+}
+
+.des_marc .marcas2{
+	float:left;
+	border:1px solid #ccc;
+	padding-left:4px;
+	padding-right:4px;
+	margin-right:5px;
+	margin-bottom:5px;
+	background-color:#efefef;
+}
+
+.des_marc .marcas2 a{
+	text-decoration:none;
+	color:#666;
+}
+
+.caja_enventa{
+	float:left;
+	width:170px;
+}
+
+.caja_enventa .titulo{
+	margin-bottom:5px;
+}
+
+.caja_enventa .titulo a{
+	color:#666;
+	font-family:"Century Gothic","Arial";
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.caja_enventa .caja_imagen{	
+}
+
+.caja_enventa .caja_imagen img{
+	width:126px;
+	height:100px;
+	border:1px solid #CCCCCC;
+	box-shadow:2px 2px 3px #666666;
+}
+
+/*------estilo comentarios--------*/
+
+.bold{
+	font-weight:bold;
+}
+
+.comentariosRight {
+    border: 1px solid #C3DBF1;
+    float: right;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 8px;
+    margin-top: 0;
+    width: 297px;
+}
+.comentariosRight h3 {
+    background: none repeat scroll 0 0 #C3DBF1;
+    border: 0 solid blue;
+    color: #0033CC;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding: 3px 5px;
+}
+.commentBox {
+    border: 0 solid green;
+    float: left;
+    margin-bottom: 10px;
+    width: 290px;
+}
+.commentLeft {
+    border: 0 solid blue;
+    float: left;
+    width: 50px;
+}
+.commentLeft img {
+    margin-left: 10px;
+}
+.commentTienda {
+    border: 0 solid blue;
+    float: left;
+    width: 100%;
+}
+.commentTiendaBox {
+    float: left;
+    margin-left: 20px;
+    padding: 10px;
+    width: 90%;
+}
+.commentTiendaLeft {
+    border: 0 solid green;
+    float: left;
+    margin-right: 20px;
+    width: 30px;
+}
+.comentarios {
+    border-bottom: 1px solid #CCCCCC;
+    float: left;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.hreview {
+    border: 0 solid green;
+    float: left;
+    width: 580px;
+}
+.hreview p {
+    border: 0 solid yellow;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0;
+    padding: 0;
+}
+p.text {
+    border: 0 solid red;
+    font-weight: normal;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+p.dequien {
+    border: 0 solid blue;
+    color: #999999;
+    float: left;
+    font-size: 11px;
+    font-weight: normal;
+    margin-left: 38px;
+    margin-top: 10px;
+}
+
+.dequien a{
+	text-decoration:none;
+	color: #999999;
+}
+
+span.dequien {
+    border: 0 solid green;
+    color: #999999;
+    float: left;
+    font-size: 11px;
+    font-weight: normal;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.avisoBox {
+    background: none repeat scroll 0 0 #C3DBF1;
+    float: left;
+    margin-top: 0;
+    width: 100%;
+}
+.publicidadTienda {
+    float: left;
+    margin: 0 0 0 10px;
+}
+	
+
+/*----- Formulario comentarios---------*/
+
+#inluyeOpinion{
+	height:300px;
+}
+
+#formOpinion{
+	height:300px;
+}
+
+.formComentario {
+    background-color: #ECEEEF;
+    clear: both;
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    width: 590px;
+}
+.formComentario p {
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 570px;
+}
+.formComentario label {
+    float: left;
+    margin-left: 0;
+    width: 400px;
+}
+.formComentario select {
+    float: right;
+    margin-right: 10px;
+    width: 100px;
+}
+.formComentario input {
+    border: 1px solid #BDC7D8;
+    float: left;
+    margin-left: 10px;
+    width: 450px;
+}
+textarea.Inputrespuesta {
+    border: 1px solid #BDC7D8;
+    float: left;
+    height: 70px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 570px;
+}
+.confirmOpina {
+    color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    height: auto;
+    padding: 2px 0 0;
+    width: 400px;
+}
+.textareaAdminRespuesta textarea {
+    width: 670px;
+}
+
+.particular, .tienda{
+	font-size:14px;
+	font-weight:bold;		
+	font-family:Arial, Helvetica, sans-serif;
+	display:block;
+	float:right;
+	margin-top:15px;
+	width:100px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	text-transform:capitalize;
+	color:#666;
+}
+
+.tienda{
+	background:url(../layout/bg_tienda.png) no-repeat center;
+	border:1px solid #f6d625;
+}
+
+.particular{
+	background:url(../layout/bg_particular.png) no-repeat center;
+	border:1px solid #7990f5;
+}
+/*--------MENSAJE DE ERROR-----------*/
+
+.error_perfil{
+	width:685px;
+	border: 1px solid #CCCCCC;
+	background-color: #EEEEEE;
+	padding:7px;
+	color:#666;
+	font-family: "Century Gothic","Arial";
+	font-size:12px;
+}

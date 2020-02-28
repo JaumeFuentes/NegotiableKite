@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+.upload_img{
+   position: relative;
+   width: 80px;
+   height: 24px;
+   overflow:hidden;
+   background:url(../iconos/btn_upload.png) left top no-repeat;
+   clip:rect(0px, 80px, 24px, 0px );   
+   margin-left:10px;
+}
+
+
+.upload_img input[type=file]{
+   position: absolute;
+   left: auto;
+   right: 0px;
+   top: 0px;
+   margin:0;
+   padding:0;
+   filter: Alpha(Opacity=0);
+   -moz-opacity: 0;
+   opacity: 0;
+}
+
+.foto_tienda.editar{
+	margin-bottom:8px;
+}
+
+.des_marc textarea{
+	width:700px;
+}
+
+.des_marc input{
+	width:100%;
+	display:block;
+}
+
+.marcas2 .deleteMarca{
+	border:1px solid #ccc;;
+	padding-left:4px;
+	padding-right:4px;
+	margin-left:5px;
+	background-color:#ffffff;
+	cursor:pointer;
+}
+
+#editaPerfil{
+	width:700px;
+	border:1px solid #ccc;;
+	margin-bottom:15px;
+	padding:8px;
+	box-shadow: 2px 2px 2px #CCCCCC;
+}
+
+#respuesta2{
+	display:none;	
+}
+
+#respuesta{
+	margin-left:10px;
+	padding-left:224px;
+	padding-right:224px;
+	border:1px solid #FC3;
+	background-color:#FF9;
+	font-family:"Century Gothic","Arial";
+	color:#090;
+	font-size:13px;
+}
+
+#respuesta_error{
+	margin-left:10px;
+	padding-left:224px;
+	padding-right:224px;
+	border:1px solid #FC3;
+	background-color:#FF9;
+	font-family:"Century Gothic","Arial";
+	color:#F00;
+	font-size:13px;
+}

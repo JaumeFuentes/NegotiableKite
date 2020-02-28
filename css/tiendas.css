@@ -1,0 +1,130 @@
+/*----------- cajas links --------------- */
+
+.tiendas_box{
+	width:321px;
+	height:120px;
+	border:1px solid #ccc;
+	float:left;
+	padding:6px;
+	background:url(../layout/block_topbg.gif) repeat-x top;
+	box-shadow:2px 2px 3px #ccc;
+	font-family: "Century Gothic","Arial";
+	margin-bottom:29px;
+	border-radius: 6px 6px 6px 6px;
+	
+}
+
+.tiendas_box.odd{
+	margin-right:29px;
+}
+
+.tiendas_box .tit_click,.tiendas_box .descripcion{
+	width:311px;
+	background:#fff;	
+	padding:4px;	
+	border-right:1px solid #bbb;
+	border-bottom:1px solid #bbb;
+	border-top:1px solid #ffffff;
+	border-left:1px solid #ffffff;
+	border-radius: 6px 6px 6px 6px;
+}
+
+.tiendas_box .tit_click{
+	height:20px;	
+	margin-bottom:6px;	
+}
+.tiendas_box .tit_click .titulo{
+	float:left;
+	font-size: 18px;
+    font-weight: bold;
+	color: #666666;
+}
+
+.tiendas_box .tit_click .titulo a{
+	font-size: 18px;
+    font-weight: bold;
+	color: #666666;
+    text-decoration: none;
+}
+
+.tiendas_box .tit_click .clicks{
+	float:right;
+}
+
+.tiendas_box .descripcion{	
+	height:75px;	
+	
+	/*color:#2A2A2B;*/
+	color:#666;
+	font-size:12px;
+	text-align:justify;
+	background:#F8F8F8;
+	position:absolute;
+}
+
+.tiendas_box .descripcion .separa{
+	border-bottom:1px dashed #ccc;
+	padding-bottom:2px;
+}
+
+.tiendas_box .descripcion .links_nk{
+	position:absolute;
+	bottom:4px;
+}
+
+.tiendas_box .descripcion .links_nk .boton{
+	border-bottom:2px solid #BBBBBB;
+	border-right:2px solid #BBBBBB;
+	display:block;
+	float:left;
+	width:150px;
+	text-align:center;
+	margin-right:5px;
+	background:#EEEEEE;
+}
+
+.tiendas_box .descripcion .links_nk .boton a{
+	text-decoration:none;
+	color:#666666;
+}
+
+#contact_links{
+	width:164px;
+	border: 1px solid #CCCCCC;
+	background-color: #EEEEEE;
+	padding:7px;
+	color:#666;
+	font-family: "Century Gothic","Arial";
+	font-size:12px;
+}
+
+#contact_links a{
+	text-decoration:none;
+}
+
+.tit_provincias
+{
+/*background-color:#33FF66;*/
+font-family: "Century Gothic","Arial";
+/*background:url(../layout/tit_provincias.png) top repeat-x;*/
+margin-bottom:15px;
+float:left;
+
+}
+
+.tit_provincias .texto_provincias{
+	padding-left:10px;
+	background:url(../layout/pestana.png) no-repeat;	
+	margin-left:10px;
+	width:200px;
+	color:#666;
+	font-size:15px;
+}
+
+.tit_provincias .linea{
+	width:700px;
+	height:4px;
+	border:1px solid #ccc;
+	box-shadow:2px 2px 3px #cccccc;
+	background:#eee;
+}

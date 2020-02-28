@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+#cont_anun_fb{
+	border-bottom:solid 1px #E9E9E9;
+	width:470px;
+	margin-bottom:15px;
+	padding-bottom:15px;
+}
+
+#prof_pic_fb{
+	float:left;
+	width:60px;
+}
+#datos_anun_fb{
+	float:left;
+}
+
+#datos_anun_fb #user_fb{
+	margin-bottom:10px;
+}
+
+#datos_anun_fb #user_fb a{
+	text-decoration:none;
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+#datos_anun_fb #links_fb{
+	background-color: #EEEEEE;
+	margin-bottom:10px;
+}
+	
+#datos_anun_fb #links_fb .links{
+	float:left;
+	margin-right:15px;	
+}
+
+#datos_anun_fb #links_fb .links a{
+	text-decoration:none;
+}
+
+#datos_anun_fb #mens_anun_fb{
+	width:400px;
+	text-align:justify;
+	margin-bottom:10px;
+	font-size:12px;
+}
+
+#datos_anun_fb #foto_anun_fb img{
+	border:solid 5px #666666;
+}
+
+#grupos_fb{
+	float:left;
+	margin-right:14px;
+}
+
+#grupos_fb select{
+	width:200px;
+	color: #666666;
+	font-family: arial black;
+	font-size: 10px;
+	height:21px;
+}
+
+#buscar_grupos_fb{
+	float:left;
+}
+
+#buscar_grupos_fb input[type=text]{
+	width:180px;
+}
+
+#ic_nom_grupo{
+	margin-bottom:15px;
+	margin-top:15px;
+}
+
+#nombre_grupo_fb{
+	margin-left:10px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:12px;
+	color: #666666;
+}
+
+#cargando_fb{
+	position: absolute;    
+	text-align:center;
+	width:700px;
+	height:700px;
+	background-color: #000000;
+	opacity: 0.8;
+	padding-top: 100px;
+	display:none;
+}
+
+#texto_cargando{
+	width:200px;
+	height:50px;
+	padding:2px;
+	text-align:justify;
+	color: #FFFFFF;
+	margin:auto;
+}
+
+#selecc_busca_fb{
+	border: 1px solid #CCCCCC;
+	height: 27px;
+	padding: 2px;
+	width: 693px;
+}
+
+#beta{
+	float:right;
+	font-size:10px;
+	color:#009;
+	margin-right:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:5px;
+}
+
+#carga_grupos{
+	display:none;
+	width:696px;
+	text-align:center;
+	border: 1px solid #CCCCCC;
+	margin-top:5px;
+	color:#666666;
+	height:47px;
+}
+	

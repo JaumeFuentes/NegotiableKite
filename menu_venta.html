@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="estilos_menu.css" type="text/css" />
+</head>
+
+<body>
+	<div class="menu1">
+		<ul>
+			<li><a class="cometas" href="busqueda.php?clase=Cometas" title="Cometas"></a></li>
+			<li><a class="tablas" href="busqueda.php?clase=Tablas" title="Tablas"></a></li>
+			<li><a class="barras" href="busqueda.php?clase=Barras" title="Barras"></a></li>
+			<li><a class="arneses" href="busqueda.php?clase=Arneses" title="Arneses"></a></li>
+			<li><a class="accesorios" href="busqueda.php?clase=Accesorios" title="Accesorios"></a></li>
+	<!--		<li><a href="#" title="Ropa">Ropa</a></li>
+			<li><a href="#" title="Otros">Otros</a></li>-->
+		</ul>
+		<div class="ver_users"><a href="users.php">Ver usuarios</a><div class="icono_users"></div></div>
+	</div>
+	<div class="separador">
+	</div>
+	<div id="busqueda_venta">
+		<div id="busqueda">
+			<form id="formulario" action="busqueda.php" method="get">
+			Búsqueda rápida:&nbsp;&nbsp;&nbsp;
+			<input type="text" name="dato_busqueda" value=""/>&nbsp;&nbsp;&nbsp;			
+			<select id="articulo" name="clase">				
+				<option value="Cometas" selected="selected">Cometas</option>
+				<option value="Tablas">Tablas</option>
+				<option value="Barras">Barras</option>
+				<option value="Arneses">Arneses</option>
+				<option value="Accesorios">Accesorios</option>
+			</select>&nbsp;&nbsp;&nbsp;
+			<input type="submit" value="Buscar" />
+			</form>
+		</div>
+		<div id="venta">
+			<a href="publicar_anuncio.php"><div id="boton_vender"></div></a>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+<!-- Load the Cloud Zoom CSS file -->
+<link rel="stylesheet" href="/css/cloud-zoom.css"  type="text/css" />
+
+<!-- You can load the jQuery library from the Google Content Network.
+Probably better than from your own server. -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+<!-- Load the Cloud Zoom JavaScript file -->
+<script type="text/JavaScript" src="/javascript/cloud-zoom.1.0.2.min.js"></script>
+
+</head>
+    <body>
+
+        <!--	
+        An anchor with class of 'cloud-zoom' should surround the small image.
+        The anchor's href should point to the big zoom image.
+        Any options can be specified in the rel attribute of the anchor.
+        Options should be specified in regular JavaScript object format,
+        but without the braces.
+        -->
+    	
+        <a href='imagenes/60imagen1superchauen_img00115201011011605.jpg' class ='cloud-zoom' id='zoom1'
+            rel="adjustX: 10, adjustY:-4, softFocus:true">
+            <img src="imagenes/redimensionar.php?anchura=377&hmax=333&imagen=60imagen1superchauen_img00115201011011605.jpg"  align="left" title="Optional title display" />
+        </a>
+      
+      
+     
+    
+        
+<!--	
+        You can optionally create a gallery by creating anchors with a class of 'cloud-zoom-gallery'.
+        The anchor's href should point to the big zoom image.
+        In the rel attribute you must specify the id of the zoom to use (useZoom: 'zoom1'),
+        and also the small image to use (smallImage: /images/....)
+        -->   
+        
+        <a href='imagenes/60imagen1superchauen_img00115201011011605.jpg' class='cloud-zoom-gallery' title='Thumbnail 1'
+        	rel="useZoom: 'zoom1', smallImage: 'imagenes/redimensionar.php?anchura=377&hmax=333&imagen=60imagen1superchauen_img00115201011011605.jpg' ">
+        <img src="imagenes/redimensionar.php?imagen=60imagen1superchauen_img00115201011011605.jpg" alt = "Thumbnail 1"/></a>
+
+        
+        <a href='imagenes/60imagen2superchauen_img00116201011011605.jpg' class='cloud-zoom-gallery' title='Thumbnail 2'
+        	rel="useZoom: 'zoom1', smallImage: ' imagenes/redimensionar.php?anchura=377&hmax=333&imagen=60imagen2superchauen_img00116201011011605.jpg'">
+        <img src="imagenes/redimensionar.php?imagen=60imagen2superchauen_img00116201011011605.jpg" alt = "Thumbnail 2"/></a>                  
+        
+       
+    </body>
+</html>
